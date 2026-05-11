@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduBot - Asisten Belajar AI</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header class="chat-header">
+            <div class="bot-avatar">🎓</div>
+            <div class="header-info">
+                <h1>EduBot</h1>
+                <span class="status">Asisten Belajar AI &bull; Online</span>
+            </div>
+        </header>
+
+        <div class="quick-topics">
+            <span class="topic-label">Topik:</span>
+            <button class="topic-btn" data-topic="Matematika">📐 Matematika</button>
+            <button class="topic-btn" data-topic="Fisika">⚛️ Fisika</button>
+            <button class="topic-btn" data-topic="Kimia">🧪 Kimia</button>
+            <button class="topic-btn" data-topic="Biologi">🌿 Biologi</button>
+            <button class="topic-btn" data-topic="Bahasa Indonesia">📖 B. Indonesia</button>
+            <button class="topic-btn" data-topic="Sejarah">🏛️ Sejarah</button>
+        </div>
+
+        <div id="chat-box" class="chat-box">
+            <div class="message bot">
+                <div class="message-content">
+                    Halo! Aku <strong>EduBot</strong>, asisten belajarmu 👋<br><br>
+                    Aku siap membantu kamu memahami pelajaran apa saja — mulai dari Matematika, IPA, IPS, hingga Bahasa.
+                    Tanya apa saja, aku akan jelaskan dengan sabar!
+                </div>
+            </div>
+        </div>
+
+        <form id="chat-form">
+            <input
+                type="text"
+                id="user-input"
+                placeholder="Tanya sesuatu, misal: Jelaskan hukum Newton..."
+                autocomplete="off"
+                required
+            />
+            <button type="submit" id="send-btn">Kirim</button>
+        </form>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

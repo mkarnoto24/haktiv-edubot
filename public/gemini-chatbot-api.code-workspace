@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "gemini-chatbot-api",
+			"path": ".."
+		},
+		{
+			"name": "public",
+			"path": "../../../Downloads/public"
+		}
+	],
+	"settings": {}
+}

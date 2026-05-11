@@ -46,7 +46,7 @@ gemini-chatbot-api/
 
 ```bash
 git clone <url-repo-kamu>
-cd gemini-chatbot-api
+cd haktiv-edubot
 npm install
 ```
 
